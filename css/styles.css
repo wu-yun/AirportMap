@@ -1,0 +1,70 @@
+body{
+	height:100%;
+	width: 100%;
+  background:#f3f3f3;
+  margin:0;
+  padding:0;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+h2{
+  font-family: 'Convergence';
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 8px 0;
+  text-shadow: 0 0 1px #000;
+  color: blue;
+}
+
+a{
+  color: #5588bb;
+  text-decoration:none;
+}
+a:hover{
+  text-decoration:underline;
+}
+
+
+.row{
+  margin:24px 0;
+}
+
+.btn{
+  color:#fff;
+  text-decoration:none;
+  padding:10px 20px;
+  margin:0 2px;
+  border-radius:3px;
+  border-top:#4c82b7 solid 1px;
+  border-left:#4c82b7 solid 1px;
+  border-bottom:#3e6d9c solid 1px;
+  border-right:#3e6d9c solid 1px;
+  background:#4477aa;
+  background-image: linear-gradient(bottom, rgb(59,104,149) 50%, rgb(68,119,170) 100%);
+  background-image: -o-linear-gradient(bottom, rgb(59,104,149) 50%, rgb(68,119,170) 100%);
+  background-image: -moz-linear-gradient(bottom, rgb(59,104,149) 50%, rgb(68,119,170) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgb(59,104,149) 50%, rgb(68,119,170) 100%);
+  background-image: -ms-linear-gradient(bottom, rgb(59,104,149) 50%, rgb(68,119,170) 100%);
+
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.5, rgb(59,104,149)),
+    color-stop(1, rgb(68,119,170))
+  );
+}
+
+
+#map{
+  height:90%;
+  width: 100%;
+  background:#6699cc;
+}
+
+
+code {
+  font-family: 'Ubuntu Mono', 'Monaco', 'Andale Mono', 'Courier New', monospace;
+  font-weight: bold;
+}
